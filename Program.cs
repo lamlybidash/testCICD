@@ -8,7 +8,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-app.MapGet("/", () => "Hello world");
+app.MapGet("/", () => "Hello world final");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
