@@ -22,7 +22,7 @@ namespace testCICD.Controllers
 
         public IActionResult Get()
         {
-            return Ok("Test CICD2");
+            return Ok("Test CICD changed");
         }
 
         //public IEnumerable<WeatherForecast> Get()
