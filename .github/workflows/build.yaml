@@ -19,9 +19,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t lamlybidash/testCICD:latest .
+          docker build -t lamlybidash/testcicd:latest .
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker push lamlybidash/testCICD:latest
+          docker push lamlybidash/testcicd:latest
             
